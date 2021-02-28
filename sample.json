@@ -1,0 +1,71 @@
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "nic": "my nic",
+  "gender": "men",
+  "age": 34,
+  "address": {
+    "streetAddress": "21 2nd Street",
+    "city": "New York",
+    "state": "NY",
+    "postalCode": "10021"
+  },
+  "userCharacteristics": [
+    {
+      "name": "userCharacteristics name 01",
+      "value": "userCharacteristics value 01"
+    },
+    {
+      "name": "userCharacteristics name 02",
+      "value": "userCharacteristics value 02"
+    }
+  ],
+  "phoneNumbers": [
+    {
+      "type": "home",
+      "number": "123-456-7890"
+    },
+    {
+      "type": "fax",
+      "number": "123-456-7890"
+    }
+  ],
+  "companyList": [
+    {
+      "name": "D1",
+      "projects": [
+        {
+          "id": "001",
+          "name": "crm rw",
+          "category": [
+            {
+              "id": "001",
+              "name": "crm-cat-01-abc"
+            },
+            {
+              "id": "002",
+              "name": "crm-cat-02"
+            }
+          ]
+        },
+        {
+          "id": "002",
+          "name": "saga-crm"
+        }
+      ]
+    },
+    {
+      "name": "M1",
+      "projects": [
+        {
+          "id": "003",
+          "name": "mobile app"
+        },
+        {
+          "id": "004",
+          "name": "innovation"
+        }
+      ]
+    }
+  ]
+}

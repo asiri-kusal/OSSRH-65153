@@ -1,0 +1,88 @@
+{
+  "age": [
+    {
+      "level": "root",
+      "key": "common",
+      "message": "age min value grater than 2 and max value less than 10",
+      "pattern": "\\d{2,10}"
+    }
+  ],
+  "gender": [
+    {
+      "level": "root",
+      "key": "common",
+      "message": "gender should be men or girl",
+      "pattern": "^(men|girl)$"
+    }
+  ],
+  "state": [
+    {
+      "level": "address",
+      "key": "common",
+      "message": "state should be NY",
+      "pattern": "^(NY)$"
+    }
+  ],
+  "number": [
+    {
+      "level": "phoneNumbers",
+      "key": "common",
+      "message": "Phone number should like 123-456-7890",
+      "pattern": "^(\\+\\d{1,2}\\s)?\\(?\\d{3}\\)?[\\s.-]\\d{3}[\\s.-]\\d{4}$"
+    }
+  ],
+  "name": [
+    {
+      "level": "category",
+      "key": "001",
+      "message": "category id should be crm-cat-01-abc",
+      "pattern": "^(crm-cat-01-abc)$"
+    }
+  ],
+  "name": [
+    {
+      "level": "projects",
+      "key": "common",
+      "message": "project name min value grater than 5 and max value less than 10",
+      "pattern": "^(?!.*  )(?=.*[\\w-])[\\w -]{5,10}$"
+    },
+    {
+      "level": "companyList",
+      "key": "common",
+      "message": "companyList should be D1 or M1",
+      "pattern": "^(D1|M1)$"
+    }
+  ],
+  "mandatoryFields": [
+    {
+      "level": "root",
+      "key": "school",
+      "type": "field",
+      "message": "school is mandatory field"
+    },
+    {
+      "level": "root",
+      "key": "phoneCharacteristics",
+      "type": "list",
+      "message": "school is mandatory field"
+    },
+    {
+      "level": "root",
+      "key": "nic",
+      "type": "field",
+      "message": "nic is mandatory field"
+    },
+    {
+      "level": "projects",
+      "key": "004",
+      "type": "eav",
+      "message": "companyList -> projects - > key -> 004 is mandatory field"
+    },
+    {
+      "level": "companyList",
+      "key": "D1",
+      "type": "eav",
+      "message": "companyList -> name - > key -> D1 is mandatory field"
+    }
+  ]
+}
